@@ -16,6 +16,11 @@
     gap: 3dvh;
   }
 }
+@media screen and (max-width: 600px) {
+  #mobile_btn {
+    display: block !important;
+  }
+}
 @media (width >= 1024px) {
   .content h1,
   .content p {
@@ -132,6 +137,11 @@
        object-fit: cover;
   }
 }
+@media screen and (max-width: 1170px) {
+  .nav-list {
+    display: none !important;
+  }
+}
 .footer-container {
   display: flex;
   flex-direction: column;
@@ -142,9 +152,6 @@
 }
 .footer-container .footer-logo {
   margin: 1dvh 1dvh;
-}
-.footer-container .footer-logo i {
-  font-size: 1.7rem;
 }
 .footer-container .footer-logo span {
   font-size: 1.7rem;
